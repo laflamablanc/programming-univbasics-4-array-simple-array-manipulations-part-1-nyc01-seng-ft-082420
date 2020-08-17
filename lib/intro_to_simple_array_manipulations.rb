@@ -12,8 +12,8 @@ end
 
 def pop_with_args(array)
   last = array[-1]
-  second = array[-2]
-  array.pop(last, next)
+  nextlast = array[-2]
+  array.pop(last, nextlast)
 end
 
 def using_shift(array)
@@ -23,5 +23,5 @@ end
 def shift_with_args(array)
   first = array[0]
   second = array[1]
-  array.shift(first, next)
+  array.shift(first, second)
 end
