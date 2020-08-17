@@ -16,4 +16,12 @@ def pop_with_args(array)
   array.pop(last, next)
 end
 
-def using_unshift
+def using_shift(array)
+  array.shift 
+end
+
+def shift_with_args(array)
+  first = array[0]
+  next = array[1]
+  array.shift(first, next)
+end
